@@ -1,0 +1,528 @@
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9A99A8;
+    background-color: #f0f0f0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.main_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 250px;
+    height: 52px;
+    border: 1px solid #3B485B;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #3B485B;
+    background: transparent;
+}
+
+.main_button:hover{
+    border: 1px solid #87A0C3;
+    background: #A1AFC2;
+    color: #ffffff;
+}
+
+.main_button:active{
+    box-shadow: 0 0 11px 0 rgba(59, 72, 91, 0.30);
+}
+
+/* HEADER */
+
+.header{
+    background: #F2F2F2;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo_wrapper{
+    width: 95px;
+    height: 65px;
+    text-decoration: none;
+}
+
+.logo_wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main_navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-item{
+    margin-right: 40px;
+}
+
+.navigation-item a{
+    color: #3B485B;
+    text-decoration: none;
+}
+
+.navigation-item a:hover{
+    color: #8F9CAF;
+}
+
+/* FOOTER */
+
+.footer{
+    background: #3B485B;
+}
+
+.footer_inner{
+    padding: 60px 0;
+}
+
+.footer_inner_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #EBEAED;
+}
+
+.footer_logo_wrapper{
+    width: 243px;
+    height: 165px;
+}
+
+.footer_logo_wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer_contacts_wrapper{
+    width: 50%;
+}
+
+.footer_address{
+
+}
+
+.footer_calls{
+    display: flex;
+    margin-top: 24px;
+}
+
+.footer_calls > :first-child{
+    margin-right: 32px;
+}
+
+.footer_item_wrapper{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer_item_title{
+    margin-left: 8px;
+    color: #D9D9D9;
+}
+
+.footer_item_title:hover{
+    color: #8F9CAF;
+}
+
+.footer_inner_bottom{
+    padding-top: 40px;
+}
+
+.footer_navigation{
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation-item{
+    margin-right: 40px;
+}
+
+.footer-navigation-item a{
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+.footer-navigation-item a:hover{
+    color: #8F9CAF;
+}
+
+/* MAIN PAGE */
+
+/* WELCOME BLOCK */
+
+.welcome_block{
+    background: #F2F2F2;
+}
+
+.welcome_block_inner{
+    position: relative;
+    padding: 40px 0 175px;
+}
+
+.welcome_block_text{
+    max-width: 762px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.welcome_block_title{
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 94%;
+    color: #3B485B;
+    font-family: Poppins, 'sans-serif';
+    z-index: 1;
+}
+
+.welcome_block_description{
+    color: #9A99A8;
+    margin-top: 24px;
+    z-index: 1;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome_block_button{
+    margin-top: 48px;
+}
+
+.welcome_block_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 593px;
+    height: 487px;
+}
+
+/* ABOUT */
+
+.about{
+    background: #E9E9E9;
+    box-shadow: 0 2px 24px 0 rgba(158, 168, 184, 0.20) inset;
+}
+
+.about_inner{
+    padding: 60px 0;
+}
+
+.about_inner h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #3B485B;
+}
+
+.about_first_block_wrapper{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_first_block_left{
+    margin-right: 40px;
+}
+
+.about_first_block_title{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    color: #9A99A8;
+    margin-bottom: 24px;
+}
+
+.about_first_block_text{
+    font-family: Poppins, sans-serif;
+    color: #BC2001;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.about_lavjar_block{
+    margin-top: 48px;
+}
+
+.about_advantages_block{
+    margin-top: 32px;
+}
+
+.about_mission_block{
+    margin-top: 32px;
+}
+
+.about_certificates_block{
+    margin-top: 32px;
+}
+
+.about_block_title{
+    color: #3B485B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.about_block_description{
+    color: #9A99A8;
+    line-height: 26px;
+}
+
+.about_main_image_block{
+    margin-top: 32px;
+    width: 100%;
+    height: 612px;
+}
+
+.about_main_image_block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about_certificates_block_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.about_certificates_block_wrapper img{
+    width: 400px;
+    height: 282px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+/* CATEGORY */
+
+.category{
+    background: #F0F0F0;
+}
+
+.category_inner{
+    padding: 60px 0;
+}
+
+.category_inner h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #3B485B;
+}
+
+.category_description{
+    color: #9A99A8;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.category_items{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category_item{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #D9DBDA;
+    padding: 40px 0;
+}
+
+.category_item:nth-child(2n+1){
+    border-right: 1px solid #D9DBDA;
+}
+
+.category_item:last-child{
+    width: 100%;
+    border: none;
+    padding-bottom: 0;
+}
+
+.category_item_inner{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category_item_inner:last-child{
+    width: 480px;
+}
+.category_item_inner:last-child img{
+    height: 230px;
+}
+
+.category_item_title{
+    color: #3B485B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 28px;
+}
+
+.category_item_image{
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+.category_item_button{
+    margin-top: 24px;
+}
+
+/* DETAIL PAGES */
+
+/* ABOUT FISH TEXTS */
+
+.about_fish_texts{
+    background: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.about_fish_texts_inner{
+    padding: 40px 0;
+}
+
+.about_fish_texts_title{
+    color: #3B485B;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.about_fish_texts_description{
+    color: #9A99A8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about_fish_texts_subtitle{
+    color: #3B485B;
+}
+
+.about_fish_texts_description p{
+    padding-bottom: 10px;
+}
+
+.about_fish_texts_description:last-child{
+    padding-bottom: 0;
+}
+
+/* ABOUT FISH FEEDING */
+
+.about_fish_feeding{
+    background: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.about_fish_feeding_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_fish_feeding_left{
+    margin-right: 20px;
+    padding-top: 48px;
+}
+
+.about_fish_feeding_right{
+
+}
+
+.about_fish_feeding_right h2{
+    color: #3B485B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 16px;
+}
+
+.about_fish_feeding_right p{
+    color: #9A99A8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.about_fish_feeding_right p:last-child{
+    padding-bottom: 0;
+}
+
+/* ABOUT FISH TABLES */
+
+.about_fish_tables{
+    background: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.about_fish_tables_inner{
+    padding: 0 50px;
+}
+
+.about_fish_tables_item{
+    height: 555px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.about_fish_tables_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about_fish_tables_item:last-child{
+    margin-bottom: 0;
+}
