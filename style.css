@@ -220,7 +220,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 90%;
+    max-width: 70%;
 }
 
 .welcome_block_button{
@@ -599,7 +599,7 @@
     justify-content: center;
 }
 
-.menu_navigation_item a, .menu_navigation_item p{
+.menu_navigation_item_name, .menu_navigation_item p{
     text-decoration: none;
     color: #3B485B;
     font-size: 14px;
@@ -645,6 +645,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .menu_navigation_item_sub_title_item a{
@@ -653,6 +654,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 }
 
 

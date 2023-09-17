@@ -26,9 +26,14 @@ $(document).ready(function(){
   // third script
   $(".menu").click(function() {
     $(".menu_wrapper").css("right", "0");
+    $("body").css("background", "rgba(58, 71, 90, 0.50)");
   });
 
   $(".close").click(function() {
     $(".menu_wrapper").css("right", "-300px");
+    $("body").css("background", "none");
   });
+
+
+
 });
