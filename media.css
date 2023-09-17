@@ -1,0 +1,394 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .welcome_block_image{
+        width: 500px;
+        height: 450px;
+    }
+    .welcome_block_inner{
+        position: relative;
+        padding: 40px 0 125px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .container {
+        max-width: 100%;
+    }
+    .welcome_block_text{
+        max-width: 700px;
+    }
+    .welcome_block_title{
+        font-size: 130px;
+    }
+    .welcome_block_description{
+        max-width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .welcome_block_text{
+        max-width: 700px;
+    }
+    .welcome_block_title{
+        font-size: 100px;
+    }
+    .welcome_block_description{
+        max-width: 70%;
+    }
+    .welcome_block_image{
+        width: 400px;
+        height: 350px;
+    }
+    .about_first_block_wrapper{
+        flex-direction: column;
+    }
+    .about_first_block_image{
+        width: 285px;
+        height: auto;
+    }
+    .about_first_block_left{
+        margin-right: 0;
+    }
+    .about_first_block_right{
+        margin-top: 20px;
+    }
+    .about_certificates_block_wrapper{
+        width: 100%;
+    }
+    .about_certificates_block_wrapper img{
+        width: 45%;
+        height: 282px;
+        border-radius: 10px;
+        margin-right: 40px;
+    }
+    .about_fish_feeding_inner{
+        flex-direction: column;
+    }
+    .about_fish_feeding_left{
+        margin-right: 0;
+        padding-top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .about_fish_feeding_right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .header{
+        border-bottom: 1px solid #D9DBDA;
+    }
+    .main_navigation{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header_inner{
+        padding: 16px 0;
+    }
+    .welcome_block_inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 0 75px;
+    }
+    .welcome_block_text{
+        max-width: 100%;
+    }
+    .welcome_block_title{
+        font-size: 64px;
+    }
+    .welcome_block_description{
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .welcome_block_image{
+        position: initial;
+        width: 100%;
+        height: auto;
+    }
+    .welcome_block_button{
+        display: none;
+    }
+    .about_inner h2{
+        font-size: 36px;
+    }
+    .about_fish_texts_title{
+        font-size: 36px;
+    }
+    .about_inner{
+        padding: 40px 0;
+    }
+    .about_main_image_block{
+        margin-top: 28px;
+        width: 100%;
+        height: 350px;
+    }
+    .about_certificates_block_wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about_certificates_block_wrapper img{
+        width: 600px;
+        height: auto;
+        margin-right: 0;
+    }
+    .about_certificates_block_wrapper :first-child{
+        margin-bottom: 24px;
+    }
+    .category_inner{
+        padding: 40px 0;
+    }
+    .category_item{
+        padding: 30px 0;
+    }
+    .category_inner h2{
+        font-size: 36px;
+    }
+    .category_item_title{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .about_fish_texts_title {
+        font-size: 36px;
+    }
+    .about_fish_feeding{
+        padding-bottom: 32px;
+    }
+    .about_fish_feeding_right{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .about_fish_tables{
+        padding-bottom: 32px;
+    }
+    .about_fish_tables_inner{
+        padding: 0;
+    }
+    .about_fish_tables_item{
+        width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .footer_inner{
+        padding: 32px 0;
+    }
+    .footer_inner_top{
+        padding-bottom: 32px;
+    }
+    .footer_logo_wrapper{
+        width: 72px;
+        height: 48px;
+    }
+    .footer_contacts_wrapper{
+        width: 100%;
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer_inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_inner_top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_address{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer_calls{
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+    .footer_item_wrapper{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 0 24px;
+    }
+    .logo_wrapper{
+        width: 60px;
+        height: 40px;
+    }
+    .welcome_block_title{
+        font-size: 48px;
+        line-height: 94%;
+    }
+    .welcome_block_inner{
+        position: relative;
+        padding: 32px 0 0;
+    }
+    .welcome_block_description{
+        margin-top: 16px;
+        font-size: 12px;
+    }
+    .about{
+        background: #F2F2F2;
+        box-shadow: none;
+    }
+    .about_inner{
+        padding: 0;
+    }
+    .about_inner h2{
+        font-size: 32px;
+    }
+    .category_inner h2{
+        font-size: 32px;
+    }
+    .about_first_block_wrapper{
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about_first_block_left{
+        margin-right: 0;
+        width: 100%;
+    }
+    .about_first_block_image{
+        width: 200px;
+        height: auto;
+    }
+    .about_first_block_right{
+        width: 100%;
+    }
+    .about_first_block_title{
+        font-size: 14px;
+        line-height: normal;
+        color: #9A99A8;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    .about_first_block_text{
+        margin-bottom: 16px;
+        font-size: 14px;
+        line-height: normal;
+    }
+    .main_button{
+        width: 100%;
+    }
+    .about_lavjar_block{
+        margin-top: 24px;
+    }
+    .about_advantages_block{
+        margin-top: 24px;
+    }
+    .about_block_title{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+    .about_block_description{
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .about_main_image_block{
+        margin-top: 24px;
+        height: 174px;
+    }
+    .about_mission_block{
+        margin-top: 24px;
+    }
+    .about_certificates_block{
+        margin-top: 24px;
+    }
+    .about_certificates_block_wrapper{
+        margin-top: 16px;
+    }
+    .about_certificates_block_wrapper img{
+        width: 100%;
+    }
+    .category_description{
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .category_item{
+        width: 100%;
+    }
+    .category_item{
+        border-right: none;
+        padding: 24px 0;
+        border-bottom: none;
+    }
+    .category_item_inner{
+        width: 100%;
+    }
+    .category_item_title{
+        margin-top: 12px;
+    }
+    .category_item_button{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .category_item:nth-child(2n+1){
+        border-right: none;
+    }
+    .category_item_image{
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+    .about_fish_texts_title{
+        font-size: 32px;
+        line-height: normal;
+    }
+    .about_fish_texts_description{
+        font-size: 12px;
+    }
+    .about_fish_texts_inner{
+        padding: 32px 0;
+    }
+    .about_fish_feeding_right h2 {
+        color: #3B485B;
+        font-size: 18px;
+    }
+    .about_fish_feeding_right p {
+        font-size: 12px;
+    }
+    .footer_inner_bottom{
+        display: none;
+    }
+    .footer_inner_top{
+        border-bottom: none;
+    }
+    .footer_item_wrapper{
+        width: auto;
+    }
+    .footer_calls{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .footer_calls a{
+        margin-top: 16px;
+    }
+    .footer_icons{
+        width: 50%;
+        padding-top: 32px;
+        border-top: 1px solid #EBEAED;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 32px;
+    }
+}

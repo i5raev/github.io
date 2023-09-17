@@ -5,38 +5,44 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
     <title>Jem.kg</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header_inner">
-                <a class="logo_wrapper" href="/">
-                    <img src="assets/images/main-logo.svg" alt="main-logo">
-                </a>
-                <nav class="main_navigation">
-                    <div class="navigation-item">
-                        <a href="/">Главная</a>
-                    </div>
-                    <div class="navigation-item">
-                        <a href="">О  компании</a>
-                    </div>
-                    <div class="navigation-item">
-                        <a href="">Каталог</a>
-                    </div>
-                    <div class="navigation-item">
-                        <a href="">Контакты</a>
-                    </div>
-                </nav>
+    <div class="container">
+        <div class="header_inner">
+            <a class="logo_wrapper" href="/">
+                <img src="assets/images/main-logo.svg" alt="main-logo">
+            </a>
+            <nav class="main_navigation">
+                <div class="navigation-item">
+                    <a href="#welcome">Главная</a>
+                </div>
+                <div class="navigation-item">
+                    <a href="#about">О  компании</a>
+                </div>
+                <div class="navigation-item">
+                    <a href="#category">Продукция</a>
+                </div>
+                <div class="navigation-item">
+                    <a href="#footer">Контакты</a>
+                </div>
+            </nav>
+            <div class="menu">
+                <img src="assets/images/icon-menu.svg" alt="menu">
             </div>
         </div>
-    </header>
+    </div>
+</header>
     <section class="about_fish_texts">
         <div class="container">
             <div class="about_fish_texts_inner">
@@ -87,7 +93,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer_inner">
                 <div class="footer_inner_top">
@@ -111,26 +117,98 @@
                                 <p class="footer_item_title">jem-kg@mail.ru</p>
                             </a>
                         </div>
+                        <div class="footer_calls footer_icons">
+                            <a class="footer_item_wrapper" href="https://wa.me/996500500500?text=Здравствуйте%2C+у+меня+есть+вопрос">
+                                <img src="assets/images/icon-wa-white.svg" alt="wa">
+                            </a>
+                            <a class="footer_item_wrapper" href="https/">
+                                <img src="assets/images/icon-insta-white.svg" alt="https://instagram.com">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="footer_inner_bottom">
                     <nav class="footer_navigation">
                         <div class="footer-navigation-item">
-                            <a href="">Главная</a>
+                            <a href="#welcome">Главная</a>
                         </div>
                         <div class="footer-navigation-item">
-                            <a href="">О  компании</a>
+                            <a href="#about">О  компании</a>
                         </div>
                         <div class="footer-navigation-item">
-                            <a href="">Каталог</a>
+                            <a href="#category">Продукция</a>
                         </div>
                         <div class="footer-navigation-item">
-                            <a href="">Контакты</a>
+                            <a href="#footer">Контакты</a>
                         </div>
                     </nav>
                 </div>
             </div>
         </div>
     </footer>
+    <div class="menu_wrapper">
+        <div class="menu_inner">
+            <div class="close">
+                <img src="assets/images/icon-close.svg" alt="x"/>
+            </div>
+            <div class="menu_navigation">
+                <div class="menu_navigation_item">
+                    <a href="#welcome">
+                        Главная
+                    </a>
+                </div>
+                <div class="menu_navigation_item">
+                    <a href="#about">
+                        О компании
+                    </a>
+                </div>
+                <div class="menu_navigation_item">
+                    <div class="menu_navigation_item_inner">
+                        <div class="menu_navigation_item_name">
+                            <p>Продукция</p>
+                            <div class="menu_navigation_icon_arrow">
+                                <img src="assets/images/arrow-right.svg" alt="arrow"/>
+                            </div>
+                        </div>
+                        <div class="menu_navigation_item_sub_titles">
+                            <div class="menu_navigation_item_sub_title_item">
+                                <a href="fish-trout.html">
+                                    Корм для форели (лосось)
+                                </a>
+                            </div>
+                            <div class="menu_navigation_item_sub_title_item">
+                                <a href="fish-trout.html">
+                                    Корм для морских
+                                </a>
+                            </div>
+                            <div class="menu_navigation_item_sub_title_item">
+                                <a href="fish-trout.html">
+                                    Корм для карпа
+                                </a>
+                            </div>
+                            <div class="menu_navigation_item_sub_title_item">
+                                <a href="fish-trout.html">
+                                    Корм для осетровых
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_navigation_item">
+                    <a href="#footer">
+                        Контакты
+                    </a>
+                </div>
+            </div>
+            <div class="menu_icons">
+                <a href="https://wa.me/996500500500?text=Здравствуйте%2C+у+меня+есть+вопрос">
+                    <img src="assets/images/icon-wa.svg" alt="wa">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="assets/images/icon-insta.svg" alt="insta">
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
